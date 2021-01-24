@@ -57,7 +57,7 @@
         {
             "slug": "03.1-Access-and-retrieve",
             "title": "03.1-Access-and-retrieve",
-            "done": false,
+            "done": true,
             "path": "exercises/03.1-Access-and-retrieve",
             "translations": [
                 "es",
