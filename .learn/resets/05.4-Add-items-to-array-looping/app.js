@@ -7,12 +7,5 @@ var arr = [4,5,734,43,45];
 //         your loop content here   
 // }
 //*****************
-for(let i = 0; i<10;i++){
-    arr.push(Math.floor(100*Math.random()));
-}
-/* 
-while(arr.length <= 6){
-    arr.push(Math.floor(100*Math.random()));
-}
-*/
+
 console.log(arr);

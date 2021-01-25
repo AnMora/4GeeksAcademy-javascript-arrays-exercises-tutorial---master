@@ -112,7 +112,7 @@
         {
             "slug": "05.3-Add-items-to-array",
             "title": "05.3-Add-items-to-array",
-            "done": false,
+            "done": true,
             "path": "exercises/05.3-Add-items-to-array",
             "translations": [
                 "es",
@@ -123,7 +123,7 @@
         {
             "slug": "05.4-Add-items-to-array-looping",
             "title": "05.4-Add-items-to-array-looping",
-            "done": false,
+            "done": true,
             "path": "exercises/05.4-Add-items-to-array-looping",
             "translations": [
                 "es",
