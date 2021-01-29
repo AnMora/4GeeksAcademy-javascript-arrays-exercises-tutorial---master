@@ -9,6 +9,7 @@ console.log(myArray[2]);
 //myArray[valornull] = null;
 
 //Funciona
-myArray[myArray.indexOf('thursday')] = null;
+//myArray[myArray.indexOf('thursday')] = null;
+myArray[4] = null;
 //3. print the position of step 2
 console.log(myArray[4]);
