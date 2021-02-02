@@ -2,17 +2,19 @@ let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget
 let counts = {};
 
 // your code here
-for (let i = 0; i <= par.length; i++) {
+for (let i = 0; i < par.length; i++) {
     //console.log(par[i]);
     let letras = par[i].toLowerCase();
     if (letras != ' ') {
+        //Es un valor que se asigan aquello que no esta definido
+        //
         if (counts[letras] == undefined) {
             counts[letras] = 1;
         } else {
             counts[letras] += 1;
         }
     }
-};
+}
 
 // trim() toLowerCase()
 
