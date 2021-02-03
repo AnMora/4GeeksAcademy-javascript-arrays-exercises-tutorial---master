@@ -8,11 +8,15 @@ let people = [
 
 let simplifier = function (person) {
     let edad = new Date().getFullYear() - person.birthDate.getFullYear();
-    return 'Hello, my name is ' + person.name + ' and i am ' + edad + ' years old';
+    return 'Hello, my name is ' + person.name + ' and I am ' + edad;
 };
 
 console.log(people.map(simplifier));
 
 /*
 var ageDifMs = Date.now() - person.birthDate; var ageDate = new Date(ageDifMs); return 'Hello, my name is '+ person.name + ' and I am ' + Math.abs(ageDate.getUTCFullYear() - 1970) + ' years old';
+*/
+
+/*
+let simplifier = function (person) { var ageDifMs = Date.now() - person.birthDate; var ageDate = new Date(ageDifMs); return 'Hello, my name is ' + person.name + ' and I am ' + Math.abs(ageDate.getUTCFullYear() - 1970) ; }; console.log(people.map(simplifier));
 */
