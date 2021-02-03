@@ -10,8 +10,3 @@ let tasks = [
 ];
 
 //your code here
-const taskDone = tasks.filter(item =>{
-    return item.done == true;
-});
-
-console.log(taskDone);

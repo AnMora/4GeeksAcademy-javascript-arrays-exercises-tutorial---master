@@ -1,7 +1,6 @@
 let names = ['Alice','Bob','Marry','Joe','Hilary','Stevia','Dylan'];
 
-let prepender = function(name){
-	return 'My name is: '+name;
-};
-
-//your code here
+let prepender = names.map(item => {
+	return 'My name is: '+ item;
+});
+console.log(prepender);

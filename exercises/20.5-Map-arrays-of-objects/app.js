@@ -1,13 +1,18 @@
 let people = [
-	{ name: 'Joe', birthDate: new Date(1986,10,24) },
-	{ name: 'Bob', birthDate: new Date(1975,5,24) },
-	{ name: 'Erika', birthDate: new Date(1989,6,12) },
-	{ name: 'Dylan', birthDate: new Date(1999,12,14) },
-	{ name: 'Steve', birthDate: new Date(2003,4,24) }
+    { name: 'Joe', birthDate: new Date(1986, 10, 24) },
+    { name: 'Bob', birthDate: new Date(1975, 5, 24) },
+    { name: 'Erika', birthDate: new Date(1989, 6, 12) },
+    { name: 'Dylan', birthDate: new Date(1999, 12, 14) },
+    { name: 'Steve', birthDate: new Date(2003, 4, 24) }
 ];
 
-let simplifier = function(person){
-	return person.name;
+let simplifier = function (person) {
+    let edad = new Date().getFullYear() - person.birthDate.getFullYear();
+    return 'Hello, my name is ' + person.name + ' and i am ' + edad + ' years old';
 };
 
 console.log(people.map(simplifier));
+
+/*
+var ageDifMs = Date.now() - person.birthDate; var ageDate = new Date(ageDifMs); return 'Hello, my name is '+ person.name + ' and I am ' + Math.abs(ageDate.getUTCFullYear() - 1970) + ' years old';
+*/
